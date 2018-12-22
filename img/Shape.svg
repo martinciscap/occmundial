@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.6%" y="-8.1%" width="105.3%" height="121.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-307.000000, -14.000000)" fill="#FFFFFF">
+            <g id="header" filter="url(#filter-1)" transform="translate(-1.000000, 0.000000)">
+                <g id="userButton" transform="translate(256.000000, 7.000000)">
+                    <path d="M58.629114,14.8768554 C58.4851631,15.0410482 58.2517714,15.0410482 58.1078904,14.8768554 C57.9639977,14.7128088 57.964056,9.28713148 58.1079486,9.12308481 C58.2518413,8.95897173 58.4852213,8.95897173 58.6291722,9.12308481 L60.8921213,11.7029492 C60.9640676,11.7850124 61,11.8924514 61,11.9999436 C61,12.1074888 60.9639977,12.2150075 60.892063,12.2970309 L58.629114,14.8768554 Z" id="Shape" transform="translate(59.500000, 12.000000) rotate(-270.000000) translate(-59.500000, -12.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

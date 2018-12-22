@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/ripples.min.css">
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+  </head>
+
+  <body>
+      <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <a class="navbar-brand hidden-xs" href="#">Logo</a>
+                  <div class="row visible-xs" style="position:absolute;top:0;left:15px;width:100%;">
+                      <div class="col-xs-6">
+                          <a class="navbar-brand visible-xs visible-sm" href="#" style="position:absolute;top:-12px;left:-5px;">Mi actividad</a>
+                      </div>
+                      <div class="col-xs-4">
+                          <img src="img/bar.svg" style="position:absolute;right:0;top:6px;">
+                      </div>
+                      <div class="col-xs-2 text-left">
+                          <div class="dropdown" style="padding:0px;margin:0px;position:absolute;left:3px;top:10px;">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="font-size:14px;padding:0px;margin:0px;color:white;text-transform:none;">
+                              Usuario
+                              <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row visible-xs" style="position:absolute;bottom:0;left:15px;width:100%;">
+                      <div class="col-xs-3 text-center">
+                          <a href="#">
+                              <img src="img/Buscar.svg">
+                          </a>
+                      </div>
+                      <div class="col-xs-3 text-center">
+                          <a href="#">
+                              <img src="img/Dash.svg">
+                          </a>
+                      </div>
+                      <div class="col-xs-3 text-center">
+                          <a href="#">
+                              <img src="img/Group.svg">
+                          </a>
+                      </div>
+                      <div class="col-xs-3 text-center">
+                          <a href="#">
+                              <img src="img/mis factutas.svg">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a href="#" style="text-align:center;">
+                              <img src="img/Buscar.svg">
+                              <div style="margin-top:-7px;">Buscar hotel</div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" style="text-align:center;">
+                              <img src="img/Dash.svg">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" style="text-align:center;">
+                              <img src="img/Group.svg">
+                              <div style="margin-top:-4px;">Mis reservaciones</div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" style="text-align:center;">
+                              <img src="img/mis factutas.svg">
+                              <div style="margin-top:-10px;">Mis facturas</div>
+                          </a>
+                      </li>
+                  </ul>
+
+                  <ul class="nav navbar-nav navbar-right hidden-sm hidden-md">
+                      <li><a href="#"><img src="img/bar.svg" style="width:120px;height:45px;"></a></li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="margin-top:10px;">Nombre de usuario <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li class="dropdown-header">Nav header</li>
+                              <li><a href="#">Separated link</a></li>
+                              <li><a href="#">One more separated link</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <div class="container">
+          <h1 class="hidden-xs hidden-sm">Mi actividad</h1>
+          <div class="tile visible-xs visible-sm">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              <input style="width:90%;border:0;" placeholder="Buscar hotel/destino">
+          </div>
+          <div style="margin-top:60px;" class="visible-xs visible-sm"></div>
+          <div class="row">
+              <div class="col-md-3 col-md-push-9">
+                  <div class="tile">
+                      <img src="img/thor.png" style="position:absolute;top:-46px;border-radius:90px;width:63px;height:63px;">
+                      <img src="img/ios-compose-outline.svg" style="position:absolute;top:14px;right:30px;">
+                      <span style="font-weight:600;font-size:14px;">Vic Thor Gutierrez</span><br>
+                      <span style="color:#242A3B;font-size:12px;font-weight:600;">73 reservaciones</span><br><br>
+                      <div id="contact">
+                          <p><img src="img/mail icon.svg"> usuarioemail@gmail.com</p>
+                          <p><img src="img/smartphone (1).svg"> (442) 1234567</p>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <img src="img/redes sociales.svg">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="tile">
+                      <span class="tile-title-2">Estadísitcas</span>
+                      <div class="row">
+                          <div class="col-md-10">
+                              <hr>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xs-6 col-md-12" style="margin-bottom:10px;">
+                              <div style='color: #000000;	font-family: "Open Sans";	font-size: 14px;	font-weight: bold;	line-height: 19px;'>120</div>
+                              <div style='color: #000000;	font-family: "Open Sans";	font-size: 12px;	line-height: 17px;'>Comentarios</div>
+                          </div>
+                          <div class="col-xs-6 col-md-12" style="margin-bottom:10px;">
+                              <div style='	color: #0ABA8A;	font-family: "Open Sans";	font-size: 14px;	line-height: 19px;'>16</div>
+                              <div>
+                                  <div style='	color: rgba(36,36,36,0.9);	font-family: "Open Sans";	font-size: 12px;	line-height: 17px;'>Reservaciones</div>
+                                  <div style='	color: rgba(147,147,147,0.9);	font-family: "Open Sans";	font-size: 12px;	line-height: 17px;'>Mar 1 - Mar 31 de 2017</div>
+                              </div>
+                          </div>
+                          <div class="col-xs-6 col-md-12" style="margin-bottom:10px;">
+                              <div style='	color: #6F17AC;	font-family: "Open Sans";	font-size: 14px;	line-height: 19px;'>5</div>
+                              <div>
+                                  <div style='color: rgba(36,36,36,0.9);	font-family: "Open Sans";	font-size: 12px;	line-height: 17px;'>Respuestas a otros viajeros</div>
+                                  <div style='color: rgba(147,147,147,0.9);	font-family: "Open Sans";	font-size: 12px;	line-height: 17px;'>Mar 1 - Mar 31 de 2017</div>
+                              </div>
+                          </div>
+                      </div>
+                      <img src="img/grafica.png" style="width:100%;">
+                      <br><br>
+                      <span class="tile-title-2">Hoteles que revisaste</span>
+                      <div class="row">
+                          <div class="col-md-10">
+                              <hr>
+                          </div>
+                      </div>
+                      <div style='color: #304253;	font-family: "Open Sans";	font-size: 12px;	font-weight: 600;	line-height: 17px;'>Marzo 2017</div>
+                      <table style="width:100%;" id="hotelesVistos">
+                          <tr>
+                              <td style="width:12%;"><div class="checkbox-md"></div></td>
+                              <td style="width:88%;">
+                                  <div class="hotel-name">Hotel Melia Cancun</div>
+                                  <div class="fecha-visto">Visto 21 Feb 2017</div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><div class="checkbox-md"></div></td>
+                              <td>
+                                  <div class="hotel-name">Hostal la playa Guanajuato</div>
+                                  <div class="fecha-visto">Visto 11 Ene 2017</div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><div class="checkbox-md"></div></td>
+                              <td>
+                                  <div class="hotel-name">Hotel de lujo azul San luis po...</div>
+                                  <div class="fecha-visto">Visto 21 Feb 2017</div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><div class="checkbox-md"></div></td>
+                              <td>
+                                  <div class="hotel-name">Hotel querétaro</div>
+                                  <div class="fecha-visto">Visto 11 Ene 2017</div>
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+            <div class="col-md-9 col-md-pull-3">
+                <div class="tile hidden-xs hidden-sm">
+                    <span class="buscar-reservaciones">Buscar reservaciones</span> <span class="tile-side-title">(94,746 Ofertas)</span>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="form-group label-floating">
+                                            <label for="hotelName" class="control-label">Nombre del hotel</label>
+                                            <input type="email" class="form-control special-input" id="hotelName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label for="place" class="control-label">¿En dónde?</label>
+                                            <input type="text" class="form-control special-input" id="place">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-default btn-block" id="searchHotel"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar hotel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <span class="last-reservations-title">5 últimas reservaciones</span>
+
+                    <table class="table table-striped" id="reservations">
+                        <thead>
+                            <tr>
+                                <th>Hotel</th>
+                                <th>Noches</th>
+                                <th>Costo</th>
+                                <th class="hidden-xs hidden-sm">Estado o Ciudad</th>
+                                <th class="hidden-xs hidden-sm">Fecha reservación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><div class="hidden-xs hidden-sm checkbox-md"></div> Hotel Nevada</th>
+                                <td>3</td>
+                                <td>$40,000</td>
+                                <td class="hidden-xs hidden-sm">Nuevo León</td>
+                                <td class="hidden-xs hidden-sm">11 Feb 2016</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><div class="hidden-xs hidden-sm checkbox-md"></div>  Hotel las vegas</th>
+                                <td>4</td>
+                                <td>$20,000</td>
+                                <td class="hidden-xs hidden-sm">Puebla</td>
+                                <td class="hidden-xs hidden-sm">10 Feb 2016</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><div class="hidden-xs hidden-sm checkbox-md"></div> Inn House</th>
+                                <td>5</td>
+                                <td>$32,000</td>
+                                <td class="hidden-xs hidden-sm">Sinaloa</td>
+                                <td class="hidden-xs hidden-sm">07 Feb 2016</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><div class="hidden-xs hidden-sm checkbox-md"></div> Habitación ejecutiva</th>
+                                <td>6</td>
+                                <td>$70,000</td>
+                                <td class="hidden-xs hidden-sm">Ciudad de México</td>
+                                <td class="hidden-xs hidden-sm">31 Ene 2016</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><div class="hidden-xs hidden-sm checkbox-md"></div> Paraíso rooms</th>
+                                <td>6</td>
+                                <td>$40,000</td>
+                                <td class="hidden-xs hidden-sm">Nuevo León</td>
+                                <td class="hidden-xs hidden-sm">11 Feb 2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-md-offset-4 col-md-4 text-center">
+                            <a href="#" class="ver-todo-copy">Ver todo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="sugerencias-de-desti">Sugerencias de destinos:</span>
+                        </div>
+                        <div class="col-md-6 text-right hidden-xs hidden-sm">
+                            <a href="#" class="ver-todas-las-sugere">Ver todas las sugerencias</a>
+                        </div>
+                    </div>
+
+                    <!--<div class="add-class-xs-container add-class-sm-container add-class-xs-testimonial-group add-class-sm-testimonial-group">-->
+                    <div class="add-class-xs-testimonial-group add-class-sm-testimonial-group"> <!-- add-class-xs-testimonial-group add-class-sm-testimonial-group-->
+                        <div class="row">
+                            <div class="col-xs-10 col-md-4">
+                                <div style="float:left">
+                                    <div class="checkbox-sm"></div><br>
+                                    <div class="sugerencia-destino">Playa del carmen Quintana Roo México</div>
+                                    <div class="sugerencia-hotel">Hotel Melia</div>
+                                    <div class="sugerencia-cantidad">$20,000 por 5 noches</div>
+                                    <a href="#" class="sugerencia-link">Ver hotel</a>
+                                </div>
+                                <div style="float:right">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-md-4">
+                                <div style="float:left">
+                                    <div class="checkbox-sm"></div><br>
+                                    <div class="sugerencia-destino">Playa del carmen Quintana Roo México</div>
+                                    <div class="sugerencia-hotel">Hotel Rock</div>
+                                    <div class="sugerencia-cantidad">$20,000 por 5 noches</div>
+                                    <a href="#" class="sugerencia-link">Ver hotel</a>
+                                </div>
+                                <div style="float:right">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-md-4">
+                                <div style="float:left">
+                                    <div class="checkbox-sm"></div><br>
+                                    <div class="sugerencia-destino">Cancun Quintana Roo México</div>
+                                    <div class="sugerencia-hotel">Hotel la estancia</div>
+                                    <div class="sugerencia-cantidad">$20,000 por 5 noches</div>
+                                    <a href="#" class="sugerencia-link">Ver hotel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/ripples.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/bootstrap-rcm.js"></script>
+    <script>
+        $(function() {
+            $.material.init();
+        });
+    </script>
+  </body>
+</html>

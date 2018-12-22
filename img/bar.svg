@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="29px" viewBox="0 0 56 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.6%" y="-8.1%" width="105.3%" height="121.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-196.000000, -3.000000)">
+            <g id="header" filter="url(#filter-1)" transform="translate(-1.000000, 0.000000)">
+                <g id="bar" transform="translate(202.000000, 6.000000)">
+                    <g id="not" transform="translate(0.000000, 3.000000)" fill="#FFFFFF">
+                        <path d="M10.5340156,11.4836224 C9.57699615,9.81050519 10.1352401,8.88478031 9.75906634,5.78769976 C9.42199234,3.01284201 7.3228836,2.21841998 6.24772779,1.99163986 L6.24772779,0 L5.15377202,0 L5.15377202,1.99163986 C4.0771164,2.21841998 1.97800766,3.01280743 1.64170101,5.78769976 C1.26552727,8.88332792 1.82377119,9.81050519 0.866751723,11.4836224 C0.612446419,11.9252177 0.294939741,12.2802922 0,12.5540328 L0,13.2 L11.4,13.2 L11.4,12.5540328 C11.1058276,12.2802922 10.7868211,11.9252177 10.5340156,11.4836224 L10.5340156,11.4836224 Z" id="Shape"></path>
+                        <circle id="Oval" cx="5.4" cy="15" r="1.2"></circle>
+                    </g>
+                    <g id="Group" transform="translate(7.000000, 0.000000)">
+                        <g id="ic_email_24px" transform="translate(17.000000, 5.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                            <path d="M12.96,0 L1.44,0 C0.648,0 0.0072,0.64125 0.0072,1.425 L0,9.975 C0,10.75875 0.648,11.4 1.44,11.4 L12.96,11.4 C13.752,11.4 14.4,10.75875 14.4,9.975 L14.4,1.425 C14.4,0.64125 13.752,0 12.96,0 Z M12.6,2.57142857 L6.9,6 L1.2,2.57142857 L1.2,1.2 L6.9,4.62857143 L12.6,1.2 L12.6,2.57142857 Z" id="Shape"></path>
+                        </g>
+                        <g id="Rectangle-26-Copy-+-3">
+                            <rect id="Rectangle-26-Copy" fill="#F44336" x="0" y="0" width="11.4" height="11.4" rx="5.7"></rect>
+                            <text id="3" font-family="AvenirNext-Regular, Avenir Next" font-size="7.56" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="3.8" y="8.54285714">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-26-Copy-+-3-Copy" transform="translate(27.000000, 0.000000)">
+                            <rect id="Rectangle-26-Copy" fill="#F44336" x="0" y="0" width="11.4" height="11.4" rx="5.7"></rect>
+                            <text id="10" font-family="AvenirNext-Regular, Avenir Next" font-size="7.56" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="1.2" y="8.6">10</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
